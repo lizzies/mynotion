@@ -1,0 +1,36 @@
+.notion-text-block {
+  margin-top: 15px !important;
+}
+.notion-text-block div {
+    padding: 4px!important;
+}
+.notion-sub_header-block {
+  margin-top: 1.8em !important;
+}
+
+h1 {
+  font-size: 26px !important;
+}
+
+
+.notion-callout-block {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.notion-selectable.notion-callout-block > div[style*="display: flex;"] > div {
+    border: 2px solid transparent!important;
+    padding: 7px 15px !important;
+}
+
+
+[style^="position: relative; width: 100%; display: flex; flex-direction: column; align-items: center; height: 30vh;"] {
+  height: 12vh !important;
+}
+[style^="position: relative; width: 100%; display: flex; flex-direction: column; align-items: center; height: 30vh;"]
+  img {
+  height: 12vh !important;
+}
+
+[data-block-id="b6db0b00-474e-4640-a5b5-a041568ac5d1"] > div > div, div.notion-selectable.notion-callout-block > div > div {
+ border-radius: 5px !important;
+}
